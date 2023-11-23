@@ -1,5 +1,6 @@
 /* styles.css */
 
+/* Global Styles */
 .container {
   max-width: 800px;
   margin: auto;
@@ -15,8 +16,7 @@
   margin-bottom: 20px;
 }
 
-/
-
+/* Flexbox 1 */
 .flex1 {
   font-size: 36px; /* Increase the font size */
   color: #fff; /* Text color */
@@ -26,7 +26,7 @@
   text-align: center; /* Center the text */
 }
 
-
+/* Flexbox 2 */
 .flex2 {
   display: flex;
   justify-content: space-between;
@@ -54,8 +54,7 @@
   background-color: #2980b9;
 }
 
-
-
+/* Flexbox Class */
 .flexclass {
   display: flex;
   flex-wrap: wrap;
@@ -69,12 +68,14 @@
   text-align: center;
 }
 
+/* Text Class */
 .textclass {
   font-size: 18px;
   color: #333;
   margin-bottom: 10px;
 }
 
+/* Lists */
 ul {
   list-style: none;
   padding: 0;
@@ -92,7 +93,7 @@ li span {
   display: block;
 }
 
-
+/* Buttons */
 button {
   margin-top: 10px;
   padding: 10px;
@@ -107,35 +108,59 @@ button:hover {
   background-color: #45a049;
 }
 
-
-
-
+/* Typography */
 h2 {
   font-size: 20px;
   color: #333;
   margin-top: 20px;
 }
 
+/* Grid Layout for Lists */
 ul {
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); git sta
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
 }
 
+/* List Items */
 li {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 10px;
 }
 
+/* Images */
 img {
   width: 100%;
   height: auto;
   border-radius: 4px;
 }
 
+/* Paragraphs */
 p {
   margin: 5px 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 10px 20px; 
+}
+
+.navbar-toggler {
+  border: 1px solid #fff;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; 
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 10px; 
+}
+
+/* Button Class */
+.btn {
+  padding: 5px 10px; 
 }
